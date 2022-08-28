@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color:rgb(227, 227, 227);
+    width: 350px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 40px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0px;
+}
+
+.sidebar nav li a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.main {
+    /* background-color: yellow; */
+    width: 85vw
+}
+
+.container {
+    display: flex;
+}
+
+.info {
+    /* background-color: palevioletred; */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 40px;
+}
+
+.name{ 
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{
+    font-size: 20px;
+}
+
+.moreabout{
+    font-size: 15px;
+    margin-top: 23px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.buttons{
+    margin-top: 32px;
+}
+.buttons button{
+    margin-top: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color:gray;
+    font-weight: bold;
+    font-size:15px ;
+    margin: 0px 3px;
+}
+
+.buttons button:hover{
+    background-color: white;
+  color:gray;
+}
+.devPic img {
+    height: 58vh;
+}
